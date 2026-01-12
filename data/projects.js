@@ -7,9 +7,9 @@ export const projects = [
 
 The primary objective of CropSense is to enhance agricultural productivity and sustainability by predicting crop yields using environmental, soil, and weather conditions. The system leverages advanced predictive analytics to identify the most influential factors affecting yield, helping farmers optimize inputs such as irrigation, fertilizer usage, and crop selection.`,
     tools: ['Python', 'FastAPI', 'Streamlit', 'Poetry', 'LLM (Ollama)', 'Crew AI', 'Scikit-learn', 'Pandas', 'NumPy', 'LightGBM', 'Docker', 'Git', 'GitHub', 'RabbitMQ'],
-    videoUrl: 'https://mysliit-my.sharepoint.com/:v:/g/personal/it23307094_my_sliit_lk/IQDSZ6mzziQUSIzL2RvNd51vAWGgba9a6m3sKmQF15thv3c?e=shhej9',
+    videoUrl: 'https://youtu.be/MLSz75POXlo',
     projectUrl: 'https://slcropsense.streamlit.app/',
-    thumbnail: 'https://mysliit-my.sharepoint.com/:v:/g/personal/it23307094_my_sliit_lk/IQDSZ6mzziQUSIzL2RvNd51vAWGgba9a6m3sKmQF15thv3c?e=shhej9', // For tile preview
+    thumbnail: 'https://youtu.be/MLSz75POXlo', // For tile preview
   },
   {
     id: 2,
