@@ -117,7 +117,7 @@ export default function Hero() {
               <div className="relative w-full h-full rounded-full overflow-hidden bg-gray-800 flex items-center justify-center">
                 {!imageError ? (
                   <Image
-                    src="/profile-photo.jpg"
+                    src="/profile-photo1.jpg"
                     alt="Nipuni Kahandawa"
                     fill
                     className="object-cover"
