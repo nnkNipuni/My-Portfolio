@@ -25,6 +25,7 @@ The system is deployed as a complete software application with a FastAPI backend
     tools: ['Python', 'Pandas', 'NumPy', 'Matplotlib', 'Seaborn', 'Scikit-learn', 'Joblib', 'FastAPI', 'Streamlit'],
     imageUrl: '/RiskCast.png',
     thumbnail: '/RiskCast.png', // For tile preview
+    projectUrl: 'https://riskcast2.streamlit.app/',
   },
   {
     id: 3,

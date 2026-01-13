@@ -110,22 +110,9 @@ export default function ProjectDetail({ project }) {
 
           {/* Content Section */}
           <div className="flex flex-col space-y-4">
-            <div className="flex items-center gap-3 flex-wrap">
-              <h3 className="text-2xl md:text-3xl font-bold text-white">
-                {project.name}
-              </h3>
-              {project.projectUrl && (
-                <a
-                  href={project.projectUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-white/60 hover:text-white/90 transition-colors duration-200 text-sm md:text-base"
-                  aria-label="Visit project platform"
-                >
-                  ({project.projectUrl})
-                </a>
-              )}
-            </div>
+            <h3 className="text-2xl md:text-3xl font-bold text-white">
+              {project.name}
+            </h3>
             <p className="text-white/80 text-base md:text-lg leading-relaxed whitespace-pre-line">
               {project.description}
             </p>
@@ -141,6 +128,37 @@ export default function ProjectDetail({ project }) {
                 </span>
               ))}
             </div>
+
+            {/* Try It Live Button */}
+            {project.projectUrl && (
+              <div className="pt-4">
+                <motion.a
+                  href={project.projectUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                  className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-purple-500 to-blue-500 hover:from-purple-600 hover:to-blue-600 text-white font-semibold rounded-lg transition-all duration-200 shadow-lg hover:shadow-xl"
+                  aria-label="Try project live"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={2}
+                    stroke="currentColor"
+                    className="w-5 h-5"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+                    />
+                  </svg>
+                  Try It Live
+                </motion.a>
+              </div>
+            )}
           </div>
         </motion.div>
       </div>
