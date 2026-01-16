@@ -19,7 +19,6 @@ I enjoy building practical, data-driven solutions and presenting them through cl
 - React
 - Tailwind CSS
 - Framer Motion
-- Python, SQL, Power BI
 
 ## Highlights
 - Glassmorphism UI with smooth animations  
@@ -28,9 +27,9 @@ I enjoy building practical, data-driven solutions and presenting them through cl
 - Optimized for fast performance and deployment
 
 ## Contact
-📧 Email: nipunikahandawa0801@gmail.com  
-💼 LinkedIn: https://www.linkedin.com/in/nnknipuni/
-🐙 GitHub: https://github.com/nnkNipuni/
+- 📧 Email: nipunikahandawa0801@gmail.com  
+- 💼 LinkedIn: https://www.linkedin.com/in/nnknipuni/ 
+- 🐙 GitHub: https://github.com/nnkNipuni/
 
 ## Project Structure
 
